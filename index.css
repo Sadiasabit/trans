@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image/th\ \(49\).jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+}
+form{
+    position: fixed;
+    top: 8rem;
+    left: 29rem;
+    height: 60vh;
+    width: 27%;
+    padding: 1rem;
+    color: white;
+    border-radius: .6rem;
+    border: 1px solid white; 
+}
+form:hover{
+    box-shadow: .1rem .3rem .5rem white;
+}
+.div__modify{
+   opacity: .70;     
+}
+.div__modify::shadow{
+    filter: drop-shadow(10px 10px 50px #47fa00);
+}
+label{
+    font-size: 1.5rem;
+}
+.name{
+    background-color: rgb(226, 86, 31);
+    border: none;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 20rem;
+}
+.name:hover{
+    box-shadow: .1rem .1rem .5rem white;
+}
+.name__modify{
+    opacity: .4;
+}
+.name__modify::shadow{
+    filter: drop-shadow(10px 10px 50px rgb(204, 59, 59));
+}
+.password{
+    border: none;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 20rem;
+    background-color: rgb(226, 86, 31);
+}
+.password__modify{
+    opacity: .4;
+}
+.password__modify::shadow{
+    filter: drop-shadow(10px 10px 50px rgb(204, 59, 59));
+}
+::placeholder{
+    color: white;
+}
+.password:hover{
+    box-shadow: .1rem .1rem .5rem white;
+}
+.btn{
+    background-color: rgb(226, 86, 31);
+    border: none;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 20rem;
+    color: white;
+    position: fixed;
+    top: 24rem;
+    
+}
+.btn:hover{
+    box-shadow: .1rem .1rem .5rem white;
+}
